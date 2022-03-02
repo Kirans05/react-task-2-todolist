@@ -1,0 +1,35 @@
+
+.tr:nth-child(even):hover{
+    background-color: aqua;
+}
+
+.tr:nth-child(odd):hover{
+    background-color: darkorange;
+    color: white;
+}
+thead :hover ,tr:hover {
+    background-color: gold;
+    color: black;
+}
+
+.tr{
+    background-color: antiquewhite;
+    text-align: center;
+}
+table{
+    width: 500px;
+}
+.delete{
+    background-color: blue;
+    color: white;
+    border-color: blue;
+    border-radius: 10px;
+}
+
+/* .tdcheckbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height:3rem;
+} */
